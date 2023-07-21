@@ -4,8 +4,7 @@
 This proxy receives 2 query parameters, `url` and `style`. `url` should contain the URL to the raw markdown file. `style` should contain a URI encoded JSON representing the style to be applied on the `<body>` tag. The default style is:  
 ```css
 body {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 30px auto 30px auto;
     max-width: 1000px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     background-color: #0d1117;
